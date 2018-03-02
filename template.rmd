@@ -1,0 +1,124 @@
+---
+header-includes:
+- \usepackage[margin=1in]{geometry}
+- \usepackage[italian]{babel}
+- \usepackage[utf8]{inputenc}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \pagestyle{fancy}
+- \fancyhead{}
+- \fancyfoot{}
+- \fancyhead[R]{Designer}
+- \fancyfoot[L]{\thepage}
+- \fancyfoot[R]{\slshape{\footnotesize{Guglielmo Bartelloni - Francesco Bellezza}}}
+output: pdf_document
+bibliography: bibliografia.bib
+---
+
+
+\thispagestyle{empty}
+\begin{center}
+        \vspace{1cm}
+        \textbf{\huge{Designer}}\\ 
+        \vspace{1cm}
+	\includegraphics[scale=0.7]{logoITTS.jpg}\\
+        \vspace{1cm}
+        \large{Guglielmo Bartelloni, Francesco Bellezza}\\
+        \vspace{0.5cm}
+        24 Dicembre, 2017\\
+        \today\\
+        \vspace{0.5cm}
+        \vspace{0.5cm}
+        4IB\\
+        Luigi Vestri e Davide Caramelli\\
+        \vspace{1cm}
+        \Large{Laboratorio di Informatica}
+\end{center}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+
+# Scopo dell'esercitazione
+Lo scopo dell'esercitazione e quella di realizzare un programma che consenta di disegnare figure geomet
+riche e grafici di funzioni permettendo di salvare le figure sul un file di testo.
+
+# Cenni Storici
+## Ereditarietá
+L’ereditarietà è una relazione di tipo is-A, dove una superclasse mette a disposizione di una sottoclas
+se i suoi metodi e attributi non privati (a eccezione del costruttore).
+
+In Java, per estendere una superclasse e per creare quindi la sottoclasse, si utilizza la parole chiave
+ extends accanto al nome della sottoclasse e accanto alla parola extends si inserisce il nome della sup
+erclasse.
+
+Nel caso delle interfacce, ovvero particolari classi che al loro interno contengono solamente metodi as
+tratti, si utilizza la parola chiave implements.
+[@corsoinformatica]
+
+## Polimorfismo
+Il polimorfismo è una tecnica che consente di utilizzare metodi polimorfici, ovvero metodi che hanno lo
+ stesso nome, ma implementazioni diverse.
+Esistono due tipi di polimorfismi principali: per overloading e per overriding.
+
+Nel polimorfismo per overloading si opera a un livello locale, ovvero all’interno di una classe.
+
+Il metodo polimorfico in questo caso deve:
+
+- Avere lo stesso nome degli altri metodi polimorfici.
+- Avere numero di parametri diversi o avere tipi di parametri diversi o avere ordine di par
+ametri diversi rispetto agli altri metodi polimorfici.
+- Può avere un tipo di ritorno diverso se i due punti qua sopra sono rispettati.
+  
+Nel polimorfismo per overriding si opera a un livello di superclassi e sottoclassi.
+
+Nelle sottoclassi viene ridefinito il metodo presente nelle superclassi.
+
+Il metodo polimorfico in questo caso deve:
+
+- Avere la stessa signature del metodo della superclasse.
+- Avere lo stesso tipo di ritorno della superclasse o un sottotipo del tipo di ritorno dell
+a superclasse (stesso discorso vale per i parametri).
+- I metodi private non vengono ereditati alla classe figlia, quindi non si può effettuare l
+’overriding del metodo.
+- Le clausole come native, strictfp possono essere incluse nel metodo della classe figlia.
+- Un metodo statico può essere solo adombrato e non sovrascritto.
+@polimorfismo
+
+# Analisi Funzionale
+
+## Ipotesi Risolutiva
+
+Il programma deve riuscire a disegnare figure elementari su un pannello. Per farlo viene utilizzato l`o
+ggetto graphics andando a reimplementare la classe
+
+```{javascript}
+paintComponent(Graphics g);
+```
+
+## Funzionalitá del programma
+Le funzionalitá che si devono implementare sono:
+
+1. Salvare su file
+2. Caricare da file
+3. Disegnare figure (quadrato, arco, linea, ellisse, rettangolo, grafico, cerchio e ellisse)
+4. Disegnare Font(grandezza, tipo,  stile)
+
+L`interfaccia si presenta in questo modo:
+
+
+# Analisi Tecnica
+
+## Scomposizione Top-Down
+
+
+
+
+
+# Riferimenti
+
+
+
+
+

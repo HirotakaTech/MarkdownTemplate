@@ -12,8 +12,8 @@ header-includes:
 - \fancyfoot[L]{\thepage}
 - \fancyfoot[R]{\slshape{\footnotesize{Guglielmo Bartelloni - Francesco Bellezza}}}
 output: pdf_document
-
 ---
+
 
 \thispagestyle{empty}
 \begin{center}
@@ -39,58 +39,24 @@ output: pdf_document
 \clearpage
 
 
+# Scopo dell'esercitazione
+Lo scopo dell'esercitazione e quella di realizzare un programma che consenta di disegnare figure geomet
+riche e grafici di funzioni permettendo di salvare le figure sul un file di testo.
 
-## Analisi Funzionale
+# Cenni Storici
+## Ereditarietá
+L’ereditarietà è una relazione di tipo is-A, dove una superclasse mette a disposizione di una sottoclas
+se i suoi metodi e attributi non privati (a eccezione del costruttore).
 
-ciao come va sono Bartelloni
+In Java, per estendere una superclasse e per creare quindi la sottoclasse, si utilizza la parole chiave
+ extends accanto al nome della sottoclasse e accanto alla parola extends si inserisce il nome della sup
+erclasse.
 
-
-
-sdfas
-
-s
-af
-sa
-sdfjkhsakjlfdsfsa
-s
-s
-sa
-f
-fs
-sdfjkhsakjlfdsfsaf
+Nel caso delle interfacce, ovvero particolari classi che al loro interno contengono solamente metodi as
+tratti, si utilizza la parola chiave implements.
+(@corsoinformatica)
 
 
+# Bibliografia
 
 
-sdfas
-
-
-
-sdfas
-
-
-sa
-fd
-
-a
-asd
-f
-asd
-
-
-
-## ciao come va
-
-s
-afd
-sa
-
-
-
-sdfas
-
-
-
-sdfas
-
-sdfas
