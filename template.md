@@ -1,6 +1,7 @@
 ---
 header-includes:
 - \usepackage{fancyhdr}
+- \usepackage[italian]{babel}
 - \pagestyle{fancy}
 - \fancyhead{}
 - \fancyfoot{}
